@@ -4,13 +4,13 @@ pipeline {
    
     stage('Git Checkout'){
        steps {
-        echo "hi"
+        echo 'hi'
       }
     }
    
     stage('Maven Build'){
        steps {
-        echo "hello git"
+        echo 'hello git'
       }
     }
    

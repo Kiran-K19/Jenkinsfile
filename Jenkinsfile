@@ -1,15 +1,18 @@
 pipeline {
-agent any
- stages{
+ agent any
+  stages {
+   
     stage('Git Checkout'){
-      steps {
-      echo "hi"
+       steps {
+        echo "hi"
       }
     }
+   
     stage('Maven Build'){
-      steps{
-       echo "hello git"
+       steps {
+        echo "hello git"
       }
     }
- }
+   
+  }
 }

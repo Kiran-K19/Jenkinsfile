@@ -8,7 +8,7 @@ pipeline {
       }
     }
    
-    stage('Maven Build'){
+    stage('Maven Build Package'){
        steps {
         echo 'hello git'
       }

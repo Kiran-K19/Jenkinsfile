@@ -3,12 +3,12 @@ agent any
  stages{
     stage('Git Checkout'){
       steps {
-      // git url
+      echo "hi"
       }
     }
     stage('Maven Build'){
       steps{
-      
+       echo "hello"
       }
     }
  }

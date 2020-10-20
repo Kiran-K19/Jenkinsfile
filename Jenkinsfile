@@ -4,7 +4,7 @@ pipeline {
    
     stage('Git Checkout'){
        steps {
-        echo 'hi'
+        echo 'hi troubleshooted'
       }
     }
    
